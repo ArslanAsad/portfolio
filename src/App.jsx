@@ -32,7 +32,10 @@ import {
   SiDotnet,
   SiSpringboot,
   SiNextdotjs,
+  SiPython,
+  SiCplusplus,
 } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -314,11 +317,20 @@ export default function Portfolio() {
 
         <div className="w-full max-w-6xl">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">
-            Frontend
+            Languages
           </h2>
           <div className="flex flex-wrap gap-3 sm:gap-5 justify-center items-center mb-8">
             <SiJavascript className="text-2xl sm:text-3xl hover:scale-110 transition-transform" />
             <SiTypescript className="text-2xl sm:text-3xl hover:scale-110 transition-transform" />
+            <SiPython className="text-2xl sm:text-3xl hover:scale-110 transition-transform" />
+            <SiCplusplus className="text-2xl sm:text-3xl hover:scale-110 transition-transform" />
+            <FaJava className="text-2xl sm:text-3xl hover:scale-110 transition-transform" />
+          </div>
+
+          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">
+            Frontend
+          </h2>
+          <div className="flex flex-wrap gap-3 sm:gap-5 justify-center items-center mb-8">
             <SiReact className="text-2xl sm:text-3xl hover:scale-110 transition-transform" />
             <SiNextdotjs className="text-2xl sm:text-3xl hover:scale-110 transition-transform" />
             <SiTailwindcss className="text-2xl sm:text-3xl hover:scale-110 transition-transform" />
